@@ -1,0 +1,178 @@
+.nav{
+    align-items: center;
+    background-color: var(--black);
+    width: 100%;
+    color: white;
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.3rem 0;
+}
+
+.logo{
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+}
+
+.nav-logo{
+    width: 130px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.separator{
+    font-size: 2rem;
+    margin: 0 0.8rem;
+}
+
+.icons{
+    display: none;
+    justify-content: space-between;
+}
+
+.bars{
+    margin: 0 0.5rem;
+}
+
+.buttons{
+    align-items: center;
+    display: none;
+    flex-direction: row;
+    margin-right: 5rem;
+}
+
+.btn-submit{
+    background: hsl(210,3.85%,10.2%);
+    color: white;
+    cursor: pointer;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+.btn-line{
+    background: white;
+    color: white;
+    display: none;
+    height: 1px;
+    width: 50%;
+}
+
+.btn-sign{
+    background: var(--blue);
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 0.5rem 1.2rem;
+    margin-left: 2rem;
+    transition: 0.3s linear;
+}
+
+.btn-sign:hover{
+    background: white;
+    color: black;
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav{
+        position: relative;
+        height: 50px;
+    }
+
+    .logo{
+        margin-left: 1rem;
+    }
+    .nav-logo{
+        width: 110px;
+    }
+    
+    .icons{
+        display: flex;
+    }
+
+    .buttons{
+        background: var(--black);
+        border-top: 1px solid white;
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-around;
+        margin-right: 0rem;
+        margin-top: 250px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+    .btn-submit{
+        background: var(--black);
+        border: none;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .btn-line{
+        display: flex;
+    }
+
+    .btn-sign{
+        background: var(--black);
+        border-radius: 8px;
+        padding:0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .nav{
+        position: relative;
+        height: 50px;
+    }
+
+    .logo{
+        margin-left: 1rem;
+    }
+    .nav-logo{
+        width: 110px;
+    }
+    
+    .icons{
+        display: flex;
+    }
+
+    .buttons{
+        background: var(--black);
+        border-top: 1px solid white;
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-around;
+        margin-right: 0rem;
+        margin-top: 250px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+    .btn-submit{
+        background: var(--black);
+        border: none;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .btn-line{
+        display: flex;
+    }
+
+    .btn-sign{
+        background: var(--black);
+        border-radius: 8px;
+        padding:0;
+        margin-left: 0;
+    }
+}
