@@ -162,6 +162,8 @@ textarea {
   --black:hsl(0,0%,0%);
   --white: #dadbf1;
   --blue:#4c5fd5;
+  --light-blue: #4c5fd6;
+  --purple: #dadbf1;
 }
 
 @font-face {
