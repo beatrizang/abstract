@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { UsingAbstractComponent } from './using-abstract/using-abstract.component';
+import { ManageAccountComponent } from './manage-account/manage-account.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UsingAbstractComponent } from './using-abstract/using-abstract.componen
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    UsingAbstractComponent
+    UsingAbstractComponent,
+    ManageAccountComponent
   ],
   imports: [
     BrowserModule,
