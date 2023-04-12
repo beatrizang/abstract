@@ -14,3 +14,63 @@
     font-weight: 500;
     margin-bottom: 1rem;
 }
+
+
+.main{
+    display: flex;
+    padding: 5rem;
+}
+
+.left{
+    font-size: 1.3rem;
+    width: 70%;
+}
+
+.right{
+    width: 30%;
+}
+
+.box-yellow{
+    align-items: flex-start;
+    background: var(--yellow);
+    border-radius: 0.5rem;
+    display: flex;
+    width: 600px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.box-yellow p{
+    margin-left: 1rem;
+}
+
+.left__descr{
+    margin-bottom: 2rem;
+}
+
+.left__descr a{
+    border-bottom: 2px solid black;
+}
+
+.item__title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.nav{
+    list-style-type: decimal;
+    line-height: 2.5rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.nav__item{
+    align-items: center;
+    justify-content: center;
+}
+
+.subnav{
+    list-style-type: circle;
+    margin-left: 3rem;
+    width: 80%;
+}
