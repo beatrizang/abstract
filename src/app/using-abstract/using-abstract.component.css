@@ -61,6 +61,39 @@
     border-bottom: 2px solid var(--light-blue);
 }
 
+@media screen and (max-width: 768px) {
+    .top{
+        align-items: flex-start;
+        padding: 0 2rem;
+        text-align: left;
+    }
+    .top__title{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        letter-spacing: 0rem;
+    }
+
+    .top__desc{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .list{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item{
+        margin: 5rem 1rem 1rem 1rem;
+    }
+
+    .nav__item{
+        font-size: 1.5rem;
+    }
+
+}
+
 
 @media screen and (max-width: 375px) {
     .top{
@@ -88,4 +121,5 @@
     .item{
         margin: 5rem 1rem 1rem 1rem;
     }
+
 }
