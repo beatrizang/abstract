@@ -6,6 +6,7 @@ import { ManageAccountComponent } from './manage-account/manage-account.componen
 import { ManageBillingComponent } from './manage-billing/manage-billing.component';
 import { ManageOrganizationComponent } from './manage-organization/manage-organization.component';
 import { AuthenticateComponent } from './authenticate/authenticate.component';
+import { SupportComponent } from './support/support.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'home' ,pathMatch:'full'},
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path:'manage-account',component:ManageAccountComponent},
   {path:'manage-billing',component:ManageBillingComponent},
   {path:'manage-organization',component:ManageOrganizationComponent},
-  {path:'authenticate',component:AuthenticateComponent}
+  {path:'authenticate',component:AuthenticateComponent},
+  {path:'support',component:SupportComponent}
 
 ];
 

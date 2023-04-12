@@ -1,0 +1,16 @@
+.top{
+    align-items: flex-start;
+    background: var(--purple);
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+    padding-left: 5rem;
+}
+
+.top__title{
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
