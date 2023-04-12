@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { UsingAbstractComponent } from './using-abstract/using-abstract.component';
 import { ManageAccountComponent } from './manage-account/manage-account.component';
+import { ManageBillingComponent } from './manage-billing/manage-billing.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ManageAccountComponent } from './manage-account/manage-account.componen
     FooterComponent,
     HomeComponent,
     UsingAbstractComponent,
-    ManageAccountComponent
+    ManageAccountComponent,
+    ManageBillingComponent
   ],
   imports: [
     BrowserModule,

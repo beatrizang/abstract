@@ -3,12 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { UsingAbstractComponent } from './using-abstract/using-abstract.component';
 import { ManageAccountComponent } from './manage-account/manage-account.component';
+import { ManageBillingComponent } from './manage-billing/manage-billing.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'home' ,pathMatch:'full'},
   {path:'home', component:HomeComponent},
   {path:'using-abstract',component:UsingAbstractComponent},
-  {path:'manage-account',component:ManageAccountComponent}
+  {path:'manage-account',component:ManageAccountComponent},
+  {path:'manage-billing',component:ManageBillingComponent}
 
 ];
 
