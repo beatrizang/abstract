@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { UsingAbstractComponent } from './using-abstract/using-abstract.component';
 import { ManageAccountComponent } from './manage-account/manage-account.component';
 import { ManageBillingComponent } from './manage-billing/manage-billing.component';
+import { ManageOrganizationComponent } from './manage-organization/manage-organization.component';
+import { AuthenticateComponent } from './authenticate/authenticate.component';
+import { SupportComponent } from './support/support.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ManageBillingComponent } from './manage-billing/manage-billing.componen
     HomeComponent,
     UsingAbstractComponent,
     ManageAccountComponent,
-    ManageBillingComponent
+    ManageBillingComponent,
+    ManageOrganizationComponent,
+    AuthenticateComponent,
+    SupportComponent
   ],
   imports: [
     BrowserModule,
