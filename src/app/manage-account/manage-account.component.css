@@ -43,3 +43,15 @@
 .list__item:hover{
     text-decoration: underline;
 }
+
+@media screen and (max-width: 375px) {
+    .top{
+        align-items: center;
+        padding-left: 0rem;
+    }
+    .top__title{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        letter-spacing: 0rem;
+    }
+}
