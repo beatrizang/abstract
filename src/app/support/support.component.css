@@ -27,6 +27,11 @@
 }
 
 .right{
+    font-size: 1.3rem;
+    margin-left: 65%;
+    height: 80vh;
+    top: 50%;
+    position: fixed;
     width: 30%;
 }
 
@@ -63,6 +68,12 @@
 
 .item__param a{
     border-bottom: 2px solid black;
+    transition: all 0.3s linear;
+}
+
+.item__param a:hover{
+    border-bottom: 2px solid var(--gray);
+    color: var(--gray);
 }
 
 .nav{

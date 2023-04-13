@@ -9,6 +9,26 @@
     padding-left: 5rem;
 }
 
+.breadcrumbs{
+    font-size: 0.9rem;
+    margin: 1rem 0;
+}
+
+.breadcrumbs__item{
+    display:inline-block;
+}
+
+.breadcrumbs__item:not(:last-of-type)::after{
+    content: '>';
+    margin: 0 10px;
+}
+
+.breadcrumbs__item a:hover{
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+
 .top__title{
     font-size: 4.5rem;
     font-weight: 500;

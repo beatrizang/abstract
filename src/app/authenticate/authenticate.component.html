@@ -1,6 +1,10 @@
 <app-navbar></app-navbar>
 
 <section class="top">
+    <ul class="breadcrumbs">
+        <li class="breadcrumbs__item"><a [routerLink]="['/home']">Abstract</a></li>
+         <li class="breadcrumbs__item bradcrumbs__item--active">Authenticate to Abstract</li>
+    </ul>
     <h1 class="top__title">Authenticate to Abstractt</h1>
     <p class="top__desc">
         Set up and configure SSO, SCIM, and Just-in-Time provisioning.

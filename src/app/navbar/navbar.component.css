@@ -41,7 +41,7 @@
 
 .buttons{
     align-items: center;
-    display: none;
+    display: flex;
     flex-direction: row;
     margin-right: 5rem;
 }
