@@ -1,0 +1,44 @@
+.main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top{
+    margin-top: 5rem;
+    width: 60%;
+}
+
+.top__title{
+    font-size: 4.5rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.top__date{
+    margin-bottom: 5rem;
+    font-size: 1.3rem;
+}
+
+.top__param,.nav__para{
+    font-size: 1.3rem;
+}
+
+.nav__number{
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 3rem;
+}
+
+.nav__title{
+    font-size: 3rem;
+}
+
+.nav__para{
+    margin: 1rem 0;
+}
+
+.clausulas{
+    width: 60%;
+}

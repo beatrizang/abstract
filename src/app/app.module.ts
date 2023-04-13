@@ -15,6 +15,12 @@ import { SupportComponent } from './support/support.component';
 import { LegalComponent } from './legal/legal.component';
 import { NavbarSimpleComponent } from './navbar-simple/navbar-simple.component';
 import { FooterV2Component } from './footer-v2/footer-v2.component';
+import { LegalAcceptableComponent } from './legal-acceptable/legal-acceptable.component';
+import { LegalCopyComponent } from './legal-copy/legal-copy.component';
+import { LegalTermsComponent } from './legal-terms/legal-terms.component';
+import { LegalProcessingComponent } from './legal-processing/legal-processing.component';
+import { LegalTransferComponent } from './legal-transfer/legal-transfer.component';
+import { LegalTrademarksComponent } from './legal-trademarks/legal-trademarks.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +36,13 @@ import { FooterV2Component } from './footer-v2/footer-v2.component';
     SupportComponent,
     LegalComponent,
     NavbarSimpleComponent,
-    FooterV2Component
+    FooterV2Component,
+    LegalAcceptableComponent,
+    LegalCopyComponent,
+    LegalTermsComponent,
+    LegalProcessingComponent,
+    LegalTransferComponent,
+    LegalTrademarksComponent
   ],
   imports: [
     BrowserModule,
