@@ -1,0 +1,42 @@
+.nav{
+    background: var(--black);
+}
+
+.nav__logo{
+    width: 150px;
+}
+
+.nav__list{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem 8rem;
+}
+
+.nav__item{
+    color: var(--very-light-blue);
+}
+
+.nav__item:hover{
+    color: var(--blue);
+}
+
+@media screen and (max-width:768px) {
+    .nav__list{
+        padding: 1rem 2rem;
+    }
+
+    .nav__logo{
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .nav__list{
+        padding: 1rem 2rem;
+    }
+
+    .nav__logo{
+        width: 130px;
+    }
+}

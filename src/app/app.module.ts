@@ -12,6 +12,9 @@ import { ManageBillingComponent } from './manage-billing/manage-billing.componen
 import { ManageOrganizationComponent } from './manage-organization/manage-organization.component';
 import { AuthenticateComponent } from './authenticate/authenticate.component';
 import { SupportComponent } from './support/support.component';
+import { LegalComponent } from './legal/legal.component';
+import { NavbarSimpleComponent } from './navbar-simple/navbar-simple.component';
+import { FooterV2Component } from './footer-v2/footer-v2.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { SupportComponent } from './support/support.component';
     ManageBillingComponent,
     ManageOrganizationComponent,
     AuthenticateComponent,
-    SupportComponent
+    SupportComponent,
+    LegalComponent,
+    NavbarSimpleComponent,
+    FooterV2Component
   ],
   imports: [
     BrowserModule,
