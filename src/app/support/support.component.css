@@ -54,7 +54,15 @@
 
 .item__title{
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
+}
+
+.item__param{
+    margin-top: 2rem;
+}
+
+.item__param a{
+    border-bottom: 2px solid black;
 }
 
 .nav{
@@ -69,8 +77,20 @@
     justify-content: center;
 }
 
+.nav__item span{
+    font-weight: bold;
+}
+
 .subnav{
     list-style-type: circle;
     margin-left: 3rem;
     width: 80%;
 }
+
+.nav-disc{
+    list-style-type: disc;
+    line-height: 2.5rem;
+    margin: 2rem 3rem;
+}
+
+
