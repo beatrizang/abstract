@@ -161,6 +161,8 @@ textarea {
 :root{
   --black:hsl(0,0%,0%);
   --gray: #828282;
+  --dark-gray:#abc0bc;
+  --light-gray: #d8dedd;
   --white: #dadbf1;
   --blue:#4c5fd5;
   --light-blue: #4c5fd6;
