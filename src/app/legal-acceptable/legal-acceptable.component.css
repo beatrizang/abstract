@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 10rem;
 }
 
 .top{
@@ -20,6 +21,9 @@
     margin-bottom: 5rem;
     font-size: 1.3rem;
 }
+.top__param{
+    line-height: 2rem;
+}
 
 .top__param,.nav__para{
     font-size: 1.3rem;
@@ -33,12 +37,23 @@
 
 .nav__title{
     font-size: 3rem;
+    margin-bottom: 3rem;
 }
 
 .nav__para{
+    line-height: 2rem;
     margin: 1rem 0;
 }
 
 .clausulas{
     width: 60%;
+}
+
+.options{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+.option{
+    margin: 1rem 0 2rem 0;
 }
