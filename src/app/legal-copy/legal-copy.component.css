@@ -21,3 +21,69 @@
     margin-bottom: 5rem;
     font-size: 1.3rem;
 }
+
+.description{
+    font-size: 1.3rem;
+    width: 60%;
+}
+
+.section{
+    margin: 2rem 0;
+}
+
+.section__title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.section__paragraph{
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.section__link{
+    color: var(--blue);
+}
+
+.list{
+    line-height: 1.8rem;
+    list-style-type: decimal;
+    margin:1rem 0 1rem 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .top{
+        margin-top: 5rem;
+        width: 90%;
+    }
+
+    .top__title{
+        font-size: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .description{
+        font-size: 1.3rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .top{
+        margin-top: 5rem;
+        width: 90%;
+    }
+
+    .top__title{
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .description{
+        font-size: 1.3rem;
+        width: 90%;
+    }
+}
