@@ -66,3 +66,25 @@
 .nav ul{
     margin-bottom: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .top{
+        margin-top: 0rem;
+        width: 90%;
+    }
+
+    .section{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .top{
+        margin-top: 0rem;
+        width: 90%;
+    }
+
+    .section{
+        width: 90%;
+    }
+}
